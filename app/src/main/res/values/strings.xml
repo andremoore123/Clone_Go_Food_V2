@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Clone Go Food</string>
+    <string name="bottom_menu_1">Eksplor</string>
+    <string name="bottom_menu_2">Riwayat</string>
+    <string name="title_alamat">Alamatmu</string>
+    <string name="example_alamat">Jl. Soekarno Hatta No. 4, Madiun</string>
+    <string name="makan">Mau makan apa hari ini?</string>
+    <string name="Kategori">Pilih kategori</string>
+    <string name="lihat_semua">Lihat Semua</string>
+    <string name="menu_1">Menu Sehat</string>
+    <string name="menu_2">Promo</string>
+    <string name="menu_3">Menu Ayam</string>
+    <string name="menu_4">Cepat Saji</string>
+    <string name="voila">Voila Promo!</string>
+    <string name="ada_promo">Ada promo apa ya di sini?</string>
+    <string name="ada_resto">Wah ada resto enak, loh!</string>
+    <string name="cobain">Yuk cobain!</string>
+</resources>

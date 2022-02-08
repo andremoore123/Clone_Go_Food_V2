@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <ImageView
+        android:id="@+id/food_picture"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/food_pizza_hut" />
+
+    <TextView
+        android:id="@+id/name_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:text="Pizza Hut"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/food_picture"
+        app:layout_constraintTop_toTopOf="@+id/food_picture" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/total_star"
+        app:layout_constraintStart_toEndOf="@+id/total_star"
+        app:layout_constraintTop_toTopOf="@+id/total_star"
+        app:srcCompat="@drawable/ic_star" />
+
+    <TextView
+        android:id="@+id/total_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="4.5"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/name_food"
+        app:layout_constraintTop_toBottomOf="@+id/name_food" />
+
+    <TextView
+        android:id="@+id/total_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="3.4 km"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/total_star"
+        app:layout_constraintTop_toBottomOf="@+id/total_star" />
+</androidx.constraintlayout.widget.ConstraintLayout>
